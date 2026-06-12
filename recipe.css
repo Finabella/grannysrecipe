@@ -1,0 +1,62 @@
+/* 
+  Name: BEKECHE FINABELLA 
+  Assignment:  Recipe website
+  File: recipe.css , To style the pie recipe page of the recipe website.
+Extra features completed: 
+#4 (wide headings - letter-spacing),
+ #5 (tight heading background - display: inline)
+*/
+
+
+body{
+    background-color: white;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+}
+a{
+    color: #a4a400;
+}
+
+h1, h2{
+    color: #a4a400;
+    background-color: #f0f0f0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+     /* Extra feature #4: letter-spacing */
+     letter-spacing: 0.25em;
+     /* Extra feature #5: tight background – only behind the text */
+  display: inline;
+}
+h1{
+    font-size: 22pt;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+.pie-image{
+  width: 100px;
+  height: 100px;
+  align-self: auto;
+ 
+  
+}
+h2{
+    font-size: 18pt;
+    font-weight: normal;
+    text-align: left;
+}
+abbr {
+  text-decoration: underline;
+  cursor: help;
+}
+blockquote {
+  background-color: #ffffa8;
+  font-style: italic;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 0.5em 1em;
+}
+pre {
+  font-family: monospace;
+}

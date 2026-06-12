@@ -1,0 +1,88 @@
+/* 
+  Name: BEKECHE FINABELLA 
+  Assignment:  Recipe website
+  File: index.css , To style the home page of the recipe website.
+Extra features completed: 
+#4 (wide headings - letter-spacing),
+ #5 (tight heading background - display: inline)
+*/
+
+body {
+  background-color: #f1f1ee;
+  color: #333333;
+  font-family: Georgia, Garamond, serif;
+  font-size: 11pt;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em 2em;
+}
+
+header {
+  background-color: #5a7411;
+  color: #ffffff;
+  padding: 1em 1.5em;
+  margin-bottom: 1em;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26pt;
+}
+
+header p {
+  margin: 0.25em 0 0 0;
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5em 0;
+  display: flex;
+  gap: 1.5em;
+  border-bottom: 2px solid #a4a400;
+  padding-bottom: 0.5em;
+}
+
+nav a {
+  color: #a4a400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #a4a400;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+  font-size: 16pt;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2em;
+}
+
+a {
+  color: #a4a400;
+}
+
+blockquote {
+  background-color: #ffffa8;
+  border-left: 4px solid #a4a400;
+  margin: 0.5em 2em;
+  padding: 0.5em 1em;
+  font-style: italic;
+}
+
+address {
+  font-style: normal;
+  line-height: 1.8;
+}
+
+footer {
+  margin-top: 2em;
+  border-top: 1px solid #ccc;
+  padding-top: 0.5em;
+  font-size: 9pt;
+  color: #888888;
+}
